@@ -6,8 +6,8 @@
   <version>1.0-SNAPSHOT</version>
   <name>Cameo plugin - lession 1</name>
   <properties>
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
     <magicdraw.home>${env.CAMEO_ROOT}</magicdraw.home>
     <magicdraw.lib>${magicdraw.home}/lib</magicdraw.lib>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -49,59 +49,59 @@
   <dependencies>
     <dependency>
       <groupId>com.nomagic.magicdraw</groupId>
-      <artifactId>md_api</artifactId>
+      <artifactId>classpath</artifactId>
       <version>latest</version>
       <scope>system</scope>
-      <systemPath>${magicdraw.lib}/md_api.jar</systemPath>
+      <systemPath>${magicdraw.lib}/classpath.jar</systemPath>
     </dependency>
-    <dependency>
+     <dependency>
       <groupId>com.nomagic.magicdraw</groupId>
-      <artifactId>md</artifactId>
+      <artifactId>brand_api</artifactId>
       <version>latest</version>
       <scope>system</scope>
-      <systemPath>${magicdraw.lib}/md.jar</systemPath>
+      <systemPath>${magicdraw.lib}/brand_api.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.nomagic.magicdraw</groupId>
       <artifactId>uml2</artifactId>
       <version>latest</version>
       <scope>system</scope>
-      <systemPath>${magicdraw.lib}/com.nomagic.magicdraw.uml2-2021.2.0-SNAPSHOT.jar</systemPath>
+      <systemPath>${magicdraw.lib}/com.nomagic.magicdraw.uml2-2024.3.0-55-260588bf.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.nomagic.magicdraw</groupId>
       <artifactId>foundation</artifactId>
       <version>latest</version>
       <scope>system</scope>
-      <systemPath>${magicdraw.lib}/com.nomagic.magicdraw.foundation-2021.2.0-SNAPSHOT.jar</systemPath>
+      <systemPath>${magicdraw.lib}/com.nomagic.magicdraw.foundation-2024.3.0-55-260588bf.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.nomagic.magicdraw</groupId>
       <artifactId>modeling</artifactId>
       <version>latest</version>
       <scope>system</scope>
-      <systemPath>${magicdraw.lib}/com.nomagic.magicdraw.modeling-2021.2.0-SNAPSHOT.jar</systemPath>
+      <systemPath>${magicdraw.lib}/com.nomagic.magicdraw.modeling-2024.3.0-55-260588bf.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.nomagic.magicdraw</groupId>
       <artifactId>common</artifactId>
       <version>latest</version>
       <scope>system</scope>
-      <systemPath>${magicdraw.lib}/common-2021.2.0-SNAPSHOT.jar</systemPath>
+      <systemPath>${magicdraw.lib}/common-2024.3.0-55-260588bf.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.nomagic.magicdraw</groupId>
       <artifactId>emf-ecore</artifactId>
       <version>latest</version>
       <scope>system</scope>
-      <systemPath>${magicdraw.lib}/org.eclipse.emf.ecore-2.13.0.v20170609-0707.jar</systemPath>
+      <systemPath>${magicdraw.lib}/org.eclipse.emf.ecore-2.38.0.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.nomagic.magicdraw</groupId>
       <artifactId>emf-common</artifactId>
       <version>latest</version>
       <scope>system</scope>
-      <systemPath>${magicdraw.lib}/org.eclipse.emf.common-2.13.0.v20170609-0707.jar</systemPath>
+      <systemPath>${magicdraw.lib}/org.eclipse.emf.common-2.41.0.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.nomagic.magicdraw</groupId>

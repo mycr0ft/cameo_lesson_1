@@ -4,25 +4,24 @@ This is the first lession of how to develop a plugin for Cameo/MagicDraw. At the
 
 # Requirements
 
-- Cameo/MagicDraw latest 
-- Java JDK 11 
-- Maven
+- Cameo/MagicDraw 2024x Refresh 3
+- Java JDK 21
+- Maven mvn 
 
 # Usage
 
 ## Check out the repository
 
-`git clone https://github.com/modeldriven-hu/cameo_lesson_1.git`
+`git clone https://github.com/mycr0ft/cameo_lesson_1.git`
 
 ## Configure environment variable
 
 Configure Cameo/MagicDraw root directory according to local setup, for example:
 
-`set CAMEO_ROOT=C:/home/Tools/Cameo`
+`set CAMEO_ROOT /Users/Insert_Your_Path/Cameo_EA_2024x`
 
-or when using PowerShell:
+`export CAMEO_ROOT`
 
-`$env:CAMEO_ROOT = "C:/Home/Tools/Cameo"`
 
 ## Build project
 
